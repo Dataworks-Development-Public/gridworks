@@ -160,7 +160,7 @@ export class GridsterComponent
         getItemComponent: (item: GridsterItem) => this.getItemComponent(item)
       };
       this.columns = this.$options.minCols;
-      this.rows = this.$options.minRows + this.$options.addEmptyRowsCount;
+      this.rows = Math.min(this.$options.maxRows, this.$options.minRows + this.$options.addEmptyRowsCount);
       this.setGridSize();
       this.calculateLayout();
     }
