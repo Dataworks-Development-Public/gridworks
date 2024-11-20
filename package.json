@@ -19,11 +19,11 @@
   },
   "homepage": "https://tiberiuzuld.github.io/angular-gridster2",
   "bugs": {
-    "url": "https://github.com/tiberiuzuld/angular-gridster2/issues"
+    "url": "https://github.com/Dataworks-Development-Public/gridworks/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tiberiuzuld/angular-gridster2.git"
+    "url": "https://github.com/Dataworks-Development-Public/gridworks.git"
   },
   "description": "Angular gridster 2",
   "keywords": [
