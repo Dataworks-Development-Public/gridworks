@@ -1,6 +1,6 @@
 {
-  "name": "angular-gridster2",
-  "version": "18.0.1",
+  "name": "gridworks",
+  "version": "19.0.0",
   "license": "MIT",
   "scripts": {
     "husky": "husky",
@@ -15,7 +15,8 @@
     "lint": "ng lint",
     "watch": "ng build --watch --configuration development",
     "deploy": "ng deploy",
-    "postinstall": "husky install"
+    "postinstall": "husky init",
+    "prepare": "husky"
   },
   "homepage": "https://tiberiuzuld.github.io/angular-gridster2",
   "bugs": {
@@ -25,7 +26,7 @@
     "type": "git",
     "url": "https://github.com/Dataworks-Development-Public/gridworks.git"
   },
-  "description": "Angular gridster 2",
+  "description": "Gridworks, a fork of the popular Angular Gridster 2",
   "keywords": [
     "angular",
     "angular2",
@@ -38,54 +39,55 @@
     "widgets"
   ],
   "authors": [
-    "Tiberiu Zuld"
+    "Tiberiu Zuld",
+    "Dataworks"
   ],
   "files": [
     "dist/*"
   ],
   "dependencies": {
-    "@angular/animations": "18.0.0",
-    "@angular/cdk": "18.0.0",
-    "@angular/common": "18.0.0",
-    "@angular/compiler": "18.0.0",
-    "@angular/core": "18.0.0",
-    "@angular/forms": "18.0.0",
-    "@angular/material": "18.0.0",
-    "@angular/platform-browser": "18.0.0",
-    "@angular/platform-browser-dynamic": "18.0.0",
-    "@angular/router": "18.0.0",
-    "marked": "12.0.2",
-    "ngx-markdown": "18.0.0",
+    "@angular/animations": "19.0.0",
+    "@angular/cdk": "19.0.0",
+    "@angular/common": "19.0.0",
+    "@angular/compiler": "19.0.0",
+    "@angular/core": "19.0.0",
+    "@angular/forms": "19.0.0",
+    "@angular/material": "19.0.0",
+    "@angular/platform-browser": "19.0.0",
+    "@angular/platform-browser-dynamic": "19.0.0",
+    "@angular/router": "19.0.0",
+    "marked": "15.0.0",
+    "ngx-markdown": "19.0.0",
     "rxjs": "7.8.1",
-    "tslib": "2.6.2",
-    "zone.js": "0.14.6"
+    "tslib": "2.8.1",
+    "zone.js": "0.15.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "18.0.1",
-    "@angular-eslint/builder": "17.5.1",
-    "@angular-eslint/eslint-plugin": "17.5.1",
-    "@angular-eslint/eslint-plugin-template": "17.5.1",
-    "@angular-eslint/schematics": "17.5.1",
-    "@angular-eslint/template-parser": "17.5.1",
-    "@angular/cli": "18.0.1",
-    "@angular/compiler-cli": "18.0.0",
+    "@angular-devkit/build-angular": "19.0.0",
+    "@angular-eslint/builder": "18.4.1",
+    "@angular-eslint/eslint-plugin": "18.4.1",
+    "@angular-eslint/eslint-plugin-template": "18.4.1",
+    "@angular-eslint/schematics": "18.4.1",
+    "@angular-eslint/template-parser": "18.4.1",
+    "@angular/cli": "19.0.0",
+    "@angular/compiler-cli": "19.0.0",
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
     "@types/jasmine": "5.1.4",
     "@types/node": "20.12.12",
     "angular-cli-ghpages": "2.0.0-beta.2",
-    "eslint": "8.57.0",
-    "husky": "9.0.11",
+    "eslint": "9.15.0",
+    "husky": "9.1.7",
     "jasmine-core": "5.1.2",
     "karma": "6.4.3",
     "karma-chrome-launcher": "3.2.0",
     "karma-coverage": "2.2.1",
     "karma-jasmine": "5.1.0",
     "karma-jasmine-html-reporter": "2.1.0",
-    "lint-staged": "15.2.5",
-    "ng-packagr": "18.0.0",
+    "lint-staged": "15.2.10",
+    "ng-packagr": "19.0.0",
     "prettier": "3.2.5",
-    "typescript": "5.4.5",
+    "typescript": "5.6.3",
     "typescript-eslint": "7.10.0"
   },
   "commitlint": {
